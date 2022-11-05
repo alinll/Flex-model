@@ -1,0 +1,450 @@
+html{
+  background-color: rgb(237, 235, 235);
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.header{
+  text-align: center;
+  margin-top: 5px;  
+  font-weight: bold;
+}
+
+.flex-box{
+  display: flex;
+  justify-content: center;
+}
+
+.photos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 780px;
+  height: 1160px;
+}
+
+.name_1{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 280px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name1{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo1:hover > .name_1{
+  visibility: visible;
+}
+
+.name_2{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 280px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name2{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo2:hover > .name_2{
+  visibility: visible;
+}
+
+.name_3{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 570px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name3{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo3:hover > .name_3{
+  visibility: visible;
+}
+
+.name_4{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 570px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name4{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo4:hover > .name_4{
+  visibility: visible;
+}
+
+.name_5{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 570px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name5{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo5:hover > .name_5{
+  visibility: visible;
+}
+
+.name_6{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 860px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name6{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo6:hover > .name_6{
+  visibility: visible;
+}
+
+.name_7{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 860px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name7{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo7:hover > .name_7{
+  visibility: visible;
+}
+
+.name_8{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 1150px;
+  background-color: rgb(199, 189, 189);
+  opacity: 80%;
+  color: white;
+  text-align: center;
+  visibility: hidden;
+}
+
+.name8{
+  display: block;
+  padding-top: 15px;
+}
+
+.photo8:hover > .name_8{
+  visibility: visible;
+}
+
+.rating{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: rgb(199, 189, 189);
+  width: 200px;
+  height: 200px;
+}
+
+.title{
+  color: red;
+  display: flex-start;
+  margin-left: 5px;
+}
+
+.sort{
+  display: flex;
+  flex-direction: column;
+}
+
+#button_order:checked ~ .sort > .item{
+  order: var(--number);
+}
+
+#button_order:checked ~ .sort{
+  flex-direction: column-reverse;
+}
+
+.menu{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(199, 189, 189);
+  height: 1110px;
+  width: 200px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.menu_button{
+  background-color: rgb(199, 189, 189);
+  border: solid rgb(71, 70, 70);
+  color: white;
+  text-decoration: none;
+  display: flex;
+  width: 200px;
+  height: 50px;
+}
+
+.hover_burmese_1{
+  position: absolute;
+  z-index: 2;
+  width: 762px;
+  height: 290px;
+  left: 361px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_1:checked ~ .hover_burmese_1{
+  visibility: visible;
+}
+
+.hover_burmese_2{
+  position: absolute;
+  z-index: 2;
+  width: 507px;
+  height: 290px;
+  left: 361px;
+  top: 352px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_1:checked ~ .hover_burmese_2{
+  visibility: visible;
+}
+
+.hover_burmese_3{
+  position: absolute;
+  z-index: 2;
+  width: 766px;
+  height: 584px;
+  left: 361px;
+  top: 648px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_1:checked ~ .hover_burmese_3{
+  visibility: visible;
+}
+
+.hover_chartreux{
+  position: absolute;
+  z-index: 2;
+  width: 765px;
+  height: 585px;
+  left: 361px;
+  top: 352px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_2:checked ~ .hover_chartreux{
+  visibility: visible;
+}
+
+.hover_laperm_1{
+  position: absolute;
+  z-index: 2;
+  width: 762px;
+  height: 290px;
+  left: 361px;
+  bottom: 365px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_3:checked ~ .hover_laperm_1{
+  visibility: visible;
+}
+
+.hover_laperm_2{
+  position: absolute;
+  z-index: 2;
+  width: 255px;
+  height: 291px;
+  left: 361px;
+  top: 352px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_3:checked ~ .hover_laperm_2{
+  visibility: visible;
+}
+
+.hover_laperm_3{
+  position: absolute;
+  z-index: 2;
+  width: 250px;
+  height: 291px;
+  left: 866px;
+  top: 352px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_3:checked ~ .hover_laperm_3{
+  visibility: visible;
+}
+
+.hover_laperm_4{
+  position: absolute;
+  z-index: 2;
+  width: 510px;
+  height: 290px;
+  left: 361px;
+  top: 648px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_3:checked ~ .hover_laperm_4{
+  visibility: visible;
+}
+
+.hover_laperm_5{
+  position: absolute;
+  z-index: 2;
+  width: 769px;
+  height: 290px;
+  left: 357px;
+  top: 941px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_3:checked ~ .hover_laperm_5{
+  visibility: visible;
+}
+
+.hover_ragdoll_1{
+  position: absolute;
+  z-index: 2;
+  width: 762px;
+  height: 293px;
+  left: 361px;
+  bottom: 366px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_4:checked ~ .hover_ragdoll_1{
+  visibility: visible;
+}
+
+.hover_ragdoll_2{
+  position: absolute;
+  z-index: 2;
+  width: 500px;
+  height: 291px;
+  left: 616px;
+  top: 352px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_4:checked ~ .hover_ragdoll_2{
+  visibility: visible;
+}
+
+.hover_ragdoll_3{
+  position: absolute;
+  z-index: 2;
+  width: 250px;
+  height: 291px;
+  left: 871px;
+  top: 647px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_4:checked ~ .hover_ragdoll_3{
+  visibility: visible;
+}
+
+.hover_ragdoll_4{
+  position: absolute;
+  z-index: 2;
+  width: 769px;
+  height: 290px;
+  left: 357px;
+  top: 941px;
+  background-color: white;
+  opacity: 50%;
+  visibility: hidden;
+}
+
+#button_4:checked ~ .hover_ragdoll_4{
+  visibility: visible;
+}
